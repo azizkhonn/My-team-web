@@ -24,7 +24,6 @@ body {
  */
 main {
   display: block;
-  padding: 100px 0;
 }
 
 /**
@@ -1280,7 +1279,7 @@ body {
 .manage__content-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
 }
 
 .main__link {
@@ -1330,6 +1329,11 @@ body {
   display: flex;
   flex-direction: column;
   gap: 27px;
+}
+
+.manage__content + .manage__content {
+  padding-top: 54px;
+  padding: 80px 0;
 }
 
 .submit__btn {
