@@ -1,0 +1,22 @@
+.header-navbar {
+    display: flex;
+    align-items: center;
+    column-gap: 577px;
+}
+
+.navbar__list {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__item + .navbar__item {
+    margin-left: 40px;
+}
+
+.navbar__link {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}

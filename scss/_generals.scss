@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+::selection{
+    color: #fff;
+    background-color: #F67E7E;
+}
+
+body {
+    background-color: #014E56;
+    font-family: Livvic, sans-serif;
+}

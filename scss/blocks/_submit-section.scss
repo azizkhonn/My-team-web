@@ -1,0 +1,93 @@
+.main__title-wrapper {
+    width: 350px;
+}
+
+
+
+.main__title {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+.manage__content-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main__link {
+    width: 540px;
+    color: #F67E7E;
+    font-family: Livvic;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.submit-wrapper {
+    display: flex;
+    gap: 100px;
+}
+
+.submit__input-wrapper {
+    width: 540px;
+    height: 42px;
+    display: flex;
+    gap: 24px;
+    
+}
+
+.submit__input {
+    width: 445px;
+    color: #FFF;
+    outline: none;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.115px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    display: block;
+    background-color: transparent;
+    transition: 0.5s;
+    
+    &:hover {
+        color: #FFF;
+        border-bottom: 1px solid #F67E7E;  
+    }
+}
+
+.registration {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.submit__btn {
+    width: 123px;
+    height: 48px;
+    border-radius: 24px;
+    border: 2px solid #FFF;
+    background-color: transparent;
+    color: #004047;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    color: #FFF;
+    transition: 0.5s;
+    cursor: pointer;
+    &:hover{
+        color: #004047;
+       background-color: #fff;
+    }
+}
+
